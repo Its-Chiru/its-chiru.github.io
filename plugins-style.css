@@ -114,3 +114,15 @@ body {
   
 
   
+  
+::-webkit-scrollbar{
+  background-color: black;
+}
+ ::-webkit-scrollbar-track-piece{
+  background-color: black;
+ }
+
+ ::-webkit-scrollbar-thumb{
+   background: linear-gradient(white 0%, grey 100%);
+   border-radius: 10px;
+ }
