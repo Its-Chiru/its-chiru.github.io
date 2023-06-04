@@ -1,1 +1,1 @@
-# https://its-chiru.github.io/web/
+# https://its-chiru.github.io
