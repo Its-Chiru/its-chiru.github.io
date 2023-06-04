@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: rgb(23, 23, 23);
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+
+  text-align: center;
+}
+
+.hero {
+  background-color: white;
+  color: rgb(23, 23, 23);
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.hero nav a {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgb(23, 23, 23);
+  flex-grow: 1;
+}
+
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-content {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+}
+
+.hero-content h1{
+    font-size: 100px;
+    margin-top: -50px;
+
+    margin-bottom: -30px;
+
+}
+
+.hero-content p{
+    margin-bottom: 50px;
+    padding: 0px;
+    font-size: 30px;
+}
+
+.hero-content button{
+    border: none;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    border-radius: 2px;
+    border: 2px solid rgb(23, 23, 23);
+    font-size: 30px;
+    transition: all 0.25s;
+}
+
+.hero-content button:hover{
+  background-color: white;
+  transform: translateY(-5px);
+  color: rgb(23, 23, 23);
+}
+
+.hero-content button:active{
+  background-color: rgb(23, 23, 23);
+  color: white;
+}
+
+.aboutme{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  padding: 20px;
+}
+
+h1{
+  font-size: 75px;
+}
+
+p{
+  font-size: 20px;
+}
+
+::-webkit-scrollbar{
+  background-color: black;
+}
+ ::-webkit-scrollbar-track-piece{
+  background-color: black;
+ }
+
+ ::-webkit-scrollbar-thumb{
+   background: linear-gradient(white 0%, grey 100%);
+   border-radius: 10px;
+ }
+
+ .proyects{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+ }
+
+ .proyect{
+  max-width: 50vw;
+  min-width: 10vw;
+
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+ }
+
+ .proyect h1{
+  font-size: 30px;
+ }
+
+ .proyect p{
+  font-size: 15px;
+ }
+
+ .proyect button{
+  border: none;
+  background-color: rgb(23, 23, 23);
+  color: white;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 2px solid rgb(23, 23, 23);
+  font-size: 15px;
+  transition: all 0.25s;
+}
+
+.proyect button:hover{
+background-color: white;
+transform: translateY(-5px);
+color: rgb(23, 23, 23);
+}
+
+.proyect button:active{
+background-color: rgb(23, 23, 23);
+color: white;
+}
+
+#coloredText {
+  background: linear-gradient(to right, #006eff, #ea00ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#greyText {
+  background: linear-gradient(to right, #ffffff, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+hr{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  border: 2px solid white;
+}
